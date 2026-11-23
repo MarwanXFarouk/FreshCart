@@ -74,20 +74,18 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-4 text-gray-500">
-                <Link
-                  href="tel:[phone removed]"
-                  className="flex items-center gap-1.5 hover:text-primary-600 transition-colors"
+                <div
+                  className="flex items-center gap-1.5"
                 >
                   <FontAwesomeIcon icon={faPhone} />
-                  <span>[phone removed]</span>
-                </Link>
-                <Link
-                  href="mailto:support@freshcart.com"
-                  className="flex items-center gap-1.5 hover:text-primary-600 transition-colors"
+                  <span>Demo phone (not available)</span>
+                </div>
+                <div
+                  className="flex items-center gap-1.5"
                 >
                   <FontAwesomeIcon icon={faInbox} />
-                  <span>support@freshcart.com</span>
-                </Link>
+                  <span>Demo email (not available)</span>
+                </div>
               </div>
               <span className="w-px h-4 bg-gray-200"></span>
               <div className="flex items-center gap-4">
