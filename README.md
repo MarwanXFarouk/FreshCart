@@ -6,7 +6,7 @@ An e-commerce course project built with Next.js, React and TypeScript. Browse pr
 
 [Open the live demo](https://freshcart-marwanfarouk.vercel.app/)
 
-![FreshCart home page](./4-screenshot.png)
+![FreshCart home page](https://github.com/user-attachments/assets/6c6e76e6-1527-4b27-b0f2-84f0ef9ac04a)
 
 ## What it includes
 
