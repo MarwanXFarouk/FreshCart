@@ -1,7 +1,9 @@
 # 🛒 FreshCart
 
 A modern, fully responsive e-commerce web app where users can browse products,
-manage their cart and wishlist, and complete purchases — all with a clean and fast UI experience.
+manage their cart and wishlist, and complete purchases, all with a clean and fast UI.
+
+![FreshCart home page](./screenshot.png)
 
 ---
 
@@ -13,13 +15,13 @@ manage their cart and wishlist, and complete purchases — all with a clean and 
 
 ## ✨ Features
 
-- 🔐 **Authentication** — Login, Register & multi-step Forgot Password with JWT
-- 🛍️ **Product Discovery** — Browse by category, brand, and detailed product views
-- 🛒 **Cart Management** — Real-time cart updates with full persistence
-- 💛 **Wishlist** — Save and manage your favourite products
-- 📦 **Checkout** — Streamlined checkout flow with order summary
-- 📱 **Fully Responsive** — Works seamlessly on all screen sizes
-- ✨ **Smooth UI** — Micro-animations and glassmorphism effects
+- 🔐 **Authentication**: Login, Register & multi-step Forgot Password with JWT
+- 🛍️ **Product Discovery**: Browse by category, brand, and detailed product views
+- 🛒 **Cart Management**: Real-time cart updates with full persistence
+- 💛 **Wishlist**: Save and manage your favourite products
+- 📦 **Checkout**: Simple checkout flow with order summary
+- 📱 **Fully Responsive**: Works well on all screen sizes
+- ✨ **Smooth UI**: Micro-animations and glassmorphism effects
 
 ---
 
@@ -70,7 +72,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 👨‍💻 Author
 
-**Marwan Farouk** — Front-End Developer
+**Marwan Farouk**, Front-End Developer
 
 - 🐙 GitHub: [@MarwanXFarouk](https://github.com/MarwanXFarouk)
 - 📍 Location: Tanta, Egypt 🇪🇬
