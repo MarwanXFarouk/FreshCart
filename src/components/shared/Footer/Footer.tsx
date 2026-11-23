@@ -127,9 +127,8 @@ export default function Footer() {
                 competitive prices with a seamless shopping experience.
               </p>
               <div className="space-y-3 mb-6">
-                <Link
-                  href="tel:[phone removed]"
-                  className="flex items-center gap-3 text-gray-400 hover:text-primary-400 transition-colors text-sm"
+                <div
+                  className="flex items-center gap-3 text-gray-400 text-sm"
                 >
                   {/* Phone Icon */}
                   <svg
@@ -142,11 +141,10 @@ export default function Footer() {
                   >
                     <path d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z" />
                   </svg>
-                  <span>[phone removed]</span>
-                </Link>
-                <Link
-                  href="mailto:support@freshcart.com"
-                  className="flex items-center gap-3 text-gray-400 hover:text-primary-400 transition-colors text-sm"
+                  <span>Demo phone (not available)</span>
+                </div>
+                <div
+                  className="flex items-center gap-3 text-gray-400 text-sm"
                 >
                   {/* Envelope Icon */}
                   <svg
@@ -159,8 +157,8 @@ export default function Footer() {
                   >
                     <path d="M48 64c-26.5 0-48 21.5-48 48 0 15.1 7.1 29.3 19.2 38.4l208 156c17.1 12.8 40.5 12.8 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48L48 64zM0 196L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-188-198.4 148.8c-34.1 25.6-81.1 25.6-115.2 0L0 196z" />
                   </svg>
-                  <span>support@freshcart.com</span>
-                </Link>
+                  <span>Demo email (not available)</span>
+                </div>
                 <div className="flex items-start gap-3 text-gray-400 text-sm">
                   {/* Location Icon */}
                   <svg
