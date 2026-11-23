@@ -26,6 +26,27 @@ export const metadata: Metadata = {
   icons: {
     icon: logo.src,
   },
+  openGraph: {
+    title: "FreshCart",
+    description: "A modern e-commerce platform built with Next.js & React",
+    url: "https://freshcart-marwanfarouk.vercel.app",
+    siteName: "FreshCart",
+    images: [
+      {
+        url: "https://freshcart-marwanfarouk.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "FreshCart - e-commerce app home page",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FreshCart",
+    description: "A modern e-commerce platform built with Next.js & React",
+    images: ["https://freshcart-marwanfarouk.vercel.app/og-image.png"],
+  },
 };
 
 export default function RootLayout({
@@ -62,3 +83,4 @@ export default function RootLayout({
     </html>
   );
 }
+
