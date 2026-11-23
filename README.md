@@ -1,63 +1,36 @@
 # 🛒 FreshCart
 
-A modern, fully responsive e-commerce web app where users can browse products,
-manage their cart and wishlist, and complete purchases, all with a clean and fast UI.
+An e-commerce course project built with Next.js, React and TypeScript. Browse products, manage a cart and wishlist, and work through authentication and checkout flows.
 
-![FreshCart home page](./screenshot.png)
+## Demo
 
----
+[Open the live demo](https://freshcart-marwanfarouk.vercel.app/)
 
-## 🔗 Live Demo
+![FreshCart home page](./4-screenshot.png)
 
-🌐 [View Live](https://freshcart-marwanfarouk.vercel.app)
+## What it includes
 
----
+- Product lists, categories, brands and product detail pages.
+- Sign up, sign in and a multi-step password reset flow.
+- Cart quantity updates, item removal and a wishlist, backed by the Route e-commerce API.
+- Checkout forms, cash-order and online checkout-session requests, and an orders page.
+- TanStack Query for cart and wishlist queries and mutations, with success/error notifications.
+- React Hook Form and Zod for form validation, plus responsive product grids.
 
-## ✨ Features
+### Stack
 
-- 🔐 **Authentication**: Login, Register & multi-step Forgot Password with JWT
-- 🛍️ **Product Discovery**: Browse by category, brand, and detailed product views
-- 🛒 **Cart Management**: Real-time cart updates with full persistence
-- 💛 **Wishlist**: Save and manage your favourite products
-- 📦 **Checkout**: Simple checkout flow with order summary
-- 📱 **Fully Responsive**: Works well on all screen sizes
-- ✨ **Smooth UI**: Micro-animations and glassmorphism effects
+Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · TanStack Query 5 · Zustand · React Hook Form · Zod · Axios
 
----
+### Code layout
 
-## 🛠️ Tech Stack
+- `src/app/`: routes and layouts.
+- `src/featuers/`: product, auth, cart, wishlist, checkout and order modules. The folder name is spelled this way in the code.
+- `src/components/shared/`: shared navigation, footer and loading UI.
+- `src/providers/`: shared providers, including the query client.
 
-| Technology | Purpose |
-|---|---|
-| Next.js 15 (App Router) | Framework & Routing |
-| React 19 | UI Library |
-| TypeScript | Type Safety |
-| Tailwind CSS v4 | Styling |
-| TanStack Query v5 | Data Fetching & Caching |
-| Zustand | State Management |
-| React Hook Form | Form Handling |
-| Axios | HTTP Requests |
-| React Toastify | Notifications |
-| FontAwesome | Icons |
+## Run locally
 
----
-
-## 📂 Project Structure
-
-```
-src/
-├── app/          → Next.js App Router pages and layouts
-├── features/     → Feature-sliced modules (Cart, Wishlist, Auth, Products...)
-├── components/   → Shared UI components (Navbar, Footer...)
-├── hooks/        → Custom React hooks
-├── providers/    → Context providers (QueryClient, Auth)
-├── store/        → Zustand state management
-└── utils/        → Helper functions and shared utilities
-```
-
----
-
-## 🚀 Run Locally
+Use Node.js 20.9 or newer.
 
 ```bash
 git clone https://github.com/MarwanXFarouk/FreshCart.git
@@ -66,13 +39,23 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000).
 
----
+Other commands:
 
-## 👨‍💻 Author
+```bash
+npm run lint
+npm run build
+npm start
+```
 
-**Marwan Farouk**, Front-End Developer
+`npm start` serves a production build after `npm run build`.
 
-- 🐙 GitHub: [@MarwanXFarouk](https://github.com/MarwanXFarouk)
-- 📍 Location: Tanta, Egypt 🇪🇬
+## Notes
+
+- This is a learning project, not a production store.
+- Product, authentication, cart and checkout flows depend on the external Route e-commerce API. Sign in to use account-specific features.
+- Checkout code is included, but the demo is not a promise of real payment processing or order fulfillment. Do not enter real payment details to try it.
+- The screenshot is cropped to leave out the demo's contact strip.
+
+Built by [Marwan Farouk](https://github.com/MarwanXFarouk) · [LinkedIn](https://www.linkedin.com/in/marwanfarouk/)
