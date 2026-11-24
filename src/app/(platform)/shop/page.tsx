@@ -1,4 +1,4 @@
-import ProductScreen from "@/src/featuers/proudect/screen/product.screen";
+import ProductScreen from "@/src/features/products/screen/product.screen";
 
 export default function page() {
   return (

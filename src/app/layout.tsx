@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "./../styles/globals.css";
 import logo from "../assets/images/mini-logo.png";
-import AuthProvider from "@/src/featuers/auth/providers/AuthProvider";
+import AuthProvider from "@/src/features/auth/providers/AuthProvider";
 import ReactQueryProvider from "../providers/ReactQueryProvider";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 

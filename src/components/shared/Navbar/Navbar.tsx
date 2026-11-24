@@ -13,9 +13,9 @@ import logo from "../../../assets/images/freshcart-logo.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { useAuthStore } from "@/src/featuers/auth/store/auth.slice";
-import { useCart } from "@/src/featuers/cart/hooks/useCart";
-import { useWishlist } from "@/src/featuers/WishList/hooks/useWishlist";
+import { useAuthStore } from "@/src/features/auth/store/auth.slice";
+import { useCart } from "@/src/features/cart/hooks/useCart";
+import { useWishlist } from "@/src/features/wishlist/hooks/useWishlist";
 import UserDropdown from "./UserDropdown";
 
 export default function Navbar() {

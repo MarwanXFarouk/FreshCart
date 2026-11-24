@@ -2,7 +2,7 @@
 
 # 🛒 FreshCart
 
-An e-commerce course project built with Next.js, React and TypeScript. Browse products, manage a cart and wishlist, and work through authentication and checkout flows.
+A full e-commerce front end built with Next.js, React and TypeScript. Browse products, manage a cart and wishlist, and work through authentication and checkout flows.
 
 ## Demo
 
@@ -14,7 +14,7 @@ An e-commerce course project built with Next.js, React and TypeScript. Browse pr
 
 - Product lists, categories, brands and product detail pages.
 - Sign up, sign in and a multi-step password reset flow.
-- Cart quantity updates, item removal and a wishlist, backed by the Route e-commerce API.
+- Cart quantity updates, item removal and a wishlist, backed by a hosted e-commerce API.
 - Checkout forms, cash-order and online checkout-session requests, and an orders page.
 - TanStack Query for cart and wishlist queries and mutations, with success/error notifications.
 - React Hook Form and Zod for form validation, plus responsive product grids.
@@ -26,9 +26,10 @@ Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · TanStack 
 ### Code layout
 
 - `src/app/`: routes and layouts.
-- `src/featuers/`: product, auth, cart, wishlist, checkout and order modules. The folder name is spelled this way in the code.
+- `src/features/`: product, auth, cart, wishlist, checkout and order modules.
 - `src/components/shared/`: shared navigation, footer and loading UI.
 - `src/providers/`: shared providers, including the query client.
+- `src/store/`, `src/styles/`, `src/types/`, `src/assets/`: global store, global styles, shared types and static assets.
 
 ## Run locally
 
@@ -55,8 +56,8 @@ npm start
 
 ## Notes
 
-- This is a learning project, not a production store.
-- Product, authentication, cart and checkout flows depend on the external Route e-commerce API. Sign in to use account-specific features.
+- This is a demo project, not a production store.
+- Product, authentication, cart and checkout flows depend on an external e-commerce API. Sign in to use account-specific features.
 - Checkout code is included, but the demo is not a promise of real payment processing or order fulfillment. Do not enter real payment details to try it.
 - The screenshot is cropped to leave out the demo's contact strip.
 

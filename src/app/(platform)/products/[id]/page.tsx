@@ -1,4 +1,4 @@
-import ProductDetailsScreen from "@/src/featuers/produectDetails/screen/producet.details.screen";
+import ProductDetailsScreen from "@/src/features/product-details/screen/product.details.screen";
 
 interface ProductDetailsPageProps {
   params: { id: string };

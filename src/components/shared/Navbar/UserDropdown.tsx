@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { useAuthStore } from "@/src/featuers/auth/store/auth.slice";
+import { useAuthStore } from "@/src/features/auth/store/auth.slice";
 
 export default function UserDropdown() {
   const { userInfo, logout } = useAuthStore();
