@@ -1,3 +1,5 @@
+[![FreshCart](docs/thumbnail.png)](https://freshcart-marwanfarouk.vercel.app/)
+
 # 🛒 FreshCart
 
 An e-commerce course project built with Next.js, React and TypeScript. Browse products, manage a cart and wishlist, and work through authentication and checkout flows.
